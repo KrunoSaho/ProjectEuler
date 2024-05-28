@@ -84,6 +84,6 @@ def solve_all(single_stack=None):
                 yield code, a
                 break
 
-max((result, digits) for digits, result in solve_all())
+print(max((result, digits) for digits, result in solve_all()))
 
 
